@@ -3,20 +3,9 @@ package nl.cerios.demo;
 
 import static org.junit.Assert.fail;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
-import java.io.File;
-
-import javax.imageio.ImageIO;
-
-import org.apache.commons.io.FileUtils;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.nl.Als;
 import cucumber.api.java.nl.Dan;
 
